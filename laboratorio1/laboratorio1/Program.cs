@@ -2,11 +2,25 @@
 
 namespace laboratorio1
 {
-    class Program
+    class Cancion
     {
-        static void Main(string[] args)
+        public string nombre;
+        public string album;
+        public string artista;
+        public string genero;
+
+        public Cancion(string aNombre, string aAlbum, string aArtista, string aGenero)
         {
-            Console.WriteLine("Hello World!");
+            nombre = aNombre;
+            album = aAlbum;
+            artista = aArtista;
+            genero = aGenero;
         }
+
+        public string Informacion()
+        {
+            return "genero:" + genero + "artista:" + artista + "album:" + album + "nombre: " + nombre;
+        }
+
     }
 }
