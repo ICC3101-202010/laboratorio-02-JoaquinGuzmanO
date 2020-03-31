@@ -38,6 +38,36 @@ namespace laboratorio1
             
         }
 
+        public Cancion[] CancionesPorCriterio(String criterio, String valor)
+        {
+            string[] array_vacio = {};
+            if (criterio == "nombre")
+            {
+              
+            }
+            if (criterio == "album")
+            {
+
+            }
+            if (criterio == "artista")
+            {
+
+            }
+            if (criterio == "genero")
+            {
+
+            }
+            else
+            {
+                return array_vacio;
+            }
+
+
+
+
+        }
+            
+
     }
 
   
